@@ -13,13 +13,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:id="@+id/editText"
-        android:layout_alignEnd="@+id/button" />
+        android:layout_alignEnd="@+id/button"
+        android:inputType="number" />
 
     <Button
         android:text="Button"
